@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * main: the program use puts instead of printf to display
- * description: puts "programming is like a multilingual puzzle"
- * returns:0
+ * main - This program use the puts instaed of printf
+ * Return: 0 after successful run
  */
 int main(void)
 {
