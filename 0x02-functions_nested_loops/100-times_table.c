@@ -3,7 +3,6 @@
 /**
  * print_times_table - Prints a multiplication table
  * @n: The number
- *
  * Return: Number matrix
  */
 void print_times_table(int n)
