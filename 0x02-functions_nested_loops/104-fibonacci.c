@@ -1,5 +1,3 @@
-16
-
 #include <stdio.h>
 
 /**
