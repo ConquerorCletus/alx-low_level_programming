@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - This program prints 0 to 100.
  * with fizz,buzz and fizzbuzz in multiple of 3,5 and both.
