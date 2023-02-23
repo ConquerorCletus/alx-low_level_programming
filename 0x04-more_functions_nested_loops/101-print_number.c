@@ -6,10 +6,8 @@ int _putchar(char c);
 
 /**
  * print_number - like a hello world
- *
  * @n: params an integer
- *
- * No return
+ * Return: void
  */
 
 
