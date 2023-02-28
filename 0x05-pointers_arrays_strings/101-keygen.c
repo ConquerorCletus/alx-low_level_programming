@@ -13,6 +13,6 @@ int main(void)
 
 	srand(time(0));
 	code = rand();
-	printf("%d\n", code);
+	printf("%i\n", code);
 	return (0);
 }
