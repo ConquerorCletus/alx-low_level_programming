@@ -1,13 +1,13 @@
 # ALX LOW LEVEL PROGRAMMING (C programming).
 
-<img align="center" width="300" padding="1" src="imgs/images (1).png">
+<img align="center" width="300" padding="1" src=".imgs/images (1).png">
 
 
 #### 
 > I finally begin my software engineering dreams, how far i can go, i do not know.But, i will take it a step at a time.
 #### 
 
-<img align="center" src="imgs/alx_africa-___2661010985408782337_8037647664___-.jpg" >
+<img align="center" src=".imgs/alx_africa-___2661010985408782337_8037647664___-.jpg" >
 
 ## About
 This repository contains my introduction to C proggramming codes and i would be trying some new things and beginner level codes on c in this repository.
