@@ -4,7 +4,7 @@
 A pointer is a variable which contains a memory address. it can also be defined as a variable whose value is the address of another variable. A pointer Variable is a variable that stores the address of that piece of data.
 To read further about pointers click [here](https://www.tutorialspoint.com/cprogramming/c_pointers.htm).
 #### 
-    var_type \*var;
+    var_type *var;
 
 + The \* tells that the variable(var) is a pointer.
 + That points to var_type.
