@@ -13,5 +13,5 @@ This are loops within another loop in any programming syntax. you can read more 
 + The prototypes of all your functions should be included in **main.h** file.
 
 so i would be performing all my task related to 0x02-C functions and nested loops as directed by alx.
-<img align = "center" width = "250" src = "https://drive.google.com/file/d/1fouGrQ0q2SFHtmdiGLXAie6ehBWcJOOR/view?usp=drivesdk">
+<img align = "center" width = "250" src = "https://www.google.com/search?q=alx&client=ms-android-sanmu&prmd=niv&sxsrf=AJOqlzUVzWiJPAbeHg6ecxnBAnBEcL0zNw:1677564873995&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjeuZuTyLf9AhUHaqQEHWOBCyoQ_AUoAnoECAIQAg&biw=360&bih=1018&dpr=3">
 
