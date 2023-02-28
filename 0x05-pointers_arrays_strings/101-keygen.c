@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -10,9 +9,15 @@
 int main(void)
 {
 	int code;
+	char z;
 
-	srand(time(0));
-	code = rand();
-	printf("%i\n", code);
+	srand(time(NULL));
+	while (code <= 2645)
+	{
+		z = rand() % 128;
+		sum += z;
+		putchar(z);
+	}
+	putchar(2772 - sum);
 	return (0);
 }
