@@ -1,10 +1,10 @@
 # 0x02. C - Functions, nested loops
 ## Functions.
 A function is a group of statements that together perform a task. Every C program has at least one function. you can read more [here](http://www.tutorialspoint.com/cprogramming/c_functions.htm).
-    return_type functionName(parameters)
-    { 
-    Declarations & statements;
-    }
+        return_type functionName(parameters)
+        { 
+        Declarations & statements;
+        }
 
 ## Nested Loops.
 This are loops within another loop in any programming syntax. you can read more [here](https://www.google.com/amp/s/www.geeksforgeeks.org/nested-loops-in-c-with-examples/amp/).
