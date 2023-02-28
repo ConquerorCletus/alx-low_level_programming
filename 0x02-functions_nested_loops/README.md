@@ -8,6 +8,13 @@ A function is a group of statements that together perform a task. Every C progra
 
 ## Nested Loops.
 This are loops within another loop in any programming syntax. you can read more [here](https://www.google.com/amp/s/www.geeksforgeeks.org/nested-loops-in-c-with-examples/amp/).
+#### 
+    for (initialization; condition; increment){
+        for(initialization; condition; increment){
+        //statement for inside loop
+        }
+        //statement for outside loop
+        }
 
 ### Task Requirements for 0x02.
 + Allowed editors: vi, vim, emacs.
