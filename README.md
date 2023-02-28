@@ -1,6 +1,6 @@
 # ALX LOW LEVEL PROGRAMMING (C programming).
 
-![img](src = "imgs/images (1).png")
+![img](imgs/images (1).png")
 
 #### 
 > I finally begin my software engineering dreams, how far i can go, i do not know.But, i will take it a step at a time..)]
