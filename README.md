@@ -4,7 +4,8 @@
 
 
 #### 
-> I finally begin my software engineering dreams, how far i can go, i do not know.But, i will take it a step at a time..)]
+> I finally begin my software engineering dreams, how far i can go, i do not know.But, i will take it a step at a time.
+#### 
 
 <img align "center" width="250" padding="1" src="imgs/alx_africa-___2661010985408782337_8037647664___-.jpg">
 
