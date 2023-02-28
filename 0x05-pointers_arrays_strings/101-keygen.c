@@ -15,9 +15,9 @@ int main(void)
 	while (code <= 2645)
 	{
 		z = rand() % 128;
-		sum += z;
+		code += z;
 		putchar(z);
 	}
-	putchar(2772 - sum);
+	putchar(2772 - code);
 	return (0);
 }
