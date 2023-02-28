@@ -7,7 +7,7 @@
 > I finally begin my software engineering dreams, how far i can go, i do not know.But, i will take it a step at a time.
 #### 
 
-<img align "center" width="250" padding="1" src="imgs/alx_africa-___2661010985408782337_8037647664___-.jpg">
+![img](imgs/alx_africa-___2661010985408782337_8037647664___-.jpg")
 
 ## About
 This repository contains my introduction to C proggramming codes and i would be trying some new things and beginner level codes on c in this repository.
