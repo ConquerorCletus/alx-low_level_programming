@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcat - this function concatenates 2 strings
- * @dest:The destination of the copied string
+ * @dest:The destination of the concatenated string
  * @src:The string copied
  * Return: dest
  * Date:1-03-2023
