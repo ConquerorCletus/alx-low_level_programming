@@ -22,7 +22,7 @@ The C programming language is a popular low level language that is applied Embed
 - [0x03](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x03-debugging):Debugging.
 - [0x04](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops):More Functions and Nested loops.
 - [0x05](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings):Pointers, Arrays and Strings.
-
+- [0x06](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings):More pointers, Arrays and Strings.
 
 ---
 ## Author
