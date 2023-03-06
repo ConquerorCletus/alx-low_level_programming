@@ -25,6 +25,11 @@ The C programming language is a popular low level language that is applied Embed
 - [0x06](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings):More pointers, Arrays and Strings.
 - [0x07](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings):Additional Pointers, Array and Strings
 
+
+
+
+
+
 ---
 ## Author
 
