@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * create_array - This fuction creates an array of characters.
  * Return: Null if 0 and array pointer
