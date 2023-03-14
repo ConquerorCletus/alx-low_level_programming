@@ -18,12 +18,12 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	for (i = 0; s1[i] || s2[i]; i++)
 		length++;
-	cat_str = (char *) malloc(sizeof(char) * length);
+	cat_str = malloc(sizeof(char) * length);
 	if (cat_str == NULL)
 		return (NULL);
 	for (i = 0; s1[i]; i++)
 		cat_str[ci++] = s1[i];
 	for (i = 0; s2[i]; i++)
-		cat_str[ci] = s2[i];
+		cat_str[ci++] = s2[i];
 	return (cat_str);
 }
