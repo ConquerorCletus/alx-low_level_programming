@@ -6,19 +6,21 @@
  */
 typedef struct dog dog_t;
 
-/*
- * struct dog - dog structure which stores information on dog.
- * @name: name of dog
- * @age: dog age
- * @owner: dog owner
- * Description: The struct called "dog" contains the information on dog.
+/**
+ * struct dog - represents a dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ *
+ * Description: This struct represents a dog and contains information about its
+ *              name, age, and owner.
  */
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+};
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
