@@ -1,5 +1,6 @@
 #include "3-calc.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - This program does simple operations
  * @argc: argument count.
