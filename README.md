@@ -24,7 +24,14 @@ The C programming language is a popular low level language that is applied Embed
 - [0x05](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings):Pointers, Arrays and Strings.
 - [0x06](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings):More pointers, Arrays and Strings.
 - [0x07](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings):Additional Pointers, Array and Strings
-
+- [0×08](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x08-recursion):C- Recursion
+- [0x09](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x09-static_libraries):Static Libraries
+- [0x0A](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x0A-argc_argv): argc & argv
+- [0x0B](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x0B-malloc_free):malloc and free
+- [0x0C](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x0C-more_malloc_free): More malloc and free
+- [0x0D](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x0D-preprocessor): Preprocessor
+- [0x0E](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x0E-structures_typedef): structures & typedef
+- [0x0F](https://github.com/ConquerorCletus/alx-low_level_programming/tree/master/0x0F-function_pointers): Function pointers
 
 
 
