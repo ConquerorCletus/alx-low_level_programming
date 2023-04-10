@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b)
 	while (b[i] != '\0')
 		i++;
 	/*To find string length*/
-	for (i--, binary = 1; i >= 0; i--,binary *= 2)
+	for (i--, binary = 1; i >= 0; i--, binary *= 2)
 	{
 		if (b[i] != '0' && b[i] != '1')
 		{
