@@ -1,6 +1,22 @@
 #include "main.h"
 #define BUFFSIZE 1024
 /**
+ * close - This function checks and exit program
+ * Return: void
+ */
+void close(int file_from, int file_to){
+        if (close(file_from) == -1)
+        {
+                dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+                exit(100);
+        }
+        if (close(file_to) == -1)
+        {
+                dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
+                exit(100);
+        }
+}
+/**
  * main - a program that copies file from to another.
  * @argc: argument count parameter
  * @argv: argument vector parameter
