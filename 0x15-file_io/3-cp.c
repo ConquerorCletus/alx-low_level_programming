@@ -1,31 +1,34 @@
 #include "main.h"
-#define BUFFSIZE 1024
+#define BUFFER_SIZE 1024
 /**
- * close - This function checks and exit program
+ * close_file - This function checks and exit program
+ * @file_from: The file descriptor for the source file
+ * @file_to: The file descriptor for the destination file
  * Return: void
  */
-void close(int file_from, int file_to){
-        if (close(file_from) == -1)
-        {
-                dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
-                exit(100);
-        }
-        if (close(file_to) == -1)
-        {
-                dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
-                exit(100);
-        }
+void close_file(int file_from, int file_to)
+{
+	if (close(file_from) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+		exit(100);
+	}
+	if (close(file_to) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
+		exit(100);
+	}
 }
 /**
  * main - a program that copies file from to another.
  * @argc: argument count parameter
  * @argv: argument vector parameter
- * Return: 0
+ * Return: 0 on success, 97-100 on failure
  */
 int main(int argc, char *argv[])
 {
 	int file_to, file_from, read_length, write_length;
-	char buffer[BUFFSIZE];
+	char buffer[BUFFER_SIZE];
 
 	if (argc != 3)
 	{
@@ -39,26 +42,29 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 00664);
-	while ((read_length = read(file_from, buffer, 1024)) != 0)
+	if (file_to == -1)
 	{
-		if (file_to == -1)
-		{
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-			exit(99);
-		}
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+		close_file(file_from, file_to);
+		exit(99);
+	}
+	while ((read_length = read(file_from, buffer, BUFFER_SIZE)) != 0)
+	{
 		if (read_length == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+			close_file(file_from, file_to);
 			exit(98);
 		}
+
 		write_length = write(file_to, buffer, read_length);
 		if (write_length != read_length || write_length == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			close_file(file_from, file_to);
 			exit(99);
 		}
 	}
-
-	close();
+	close_file(file_from, file_to);
 	return (0);
 }
